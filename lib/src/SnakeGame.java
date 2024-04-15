@@ -101,7 +101,7 @@ g.fill3DRect(food.x*tileSize, food.y*tileSize, tileSize, tileSize,true);
 g.setFont(new Font ("Arial", Font.PLAIN, 16));
 if (gameOver) {
     g.setColor(Color.black);
-    g.drawString("GAME OVER :" + String.valueOf(snakeBody.size()),tileSize - 16, tileSize);
+    g.drawString("GAME OVER! :" + String.valueOf(snakeBody.size()),tileSize - 16, tileSize);
 }
 else{
     g.drawString("score:" + String.valueOf(snakeBody.size()),tileSize-16,tileSize);
